@@ -1,0 +1,244 @@
+/*==== common css ====*/
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.fix{
+	overflow: hidden;
+}
+.stracture{
+	max-width: 1061px;
+	margin:0 auto;
+}
+/*==== common css ====*/
+/*==== header start ====*/
+
+header {
+	padding: 35px 0 45px 0;
+}
+
+.header{}
+
+.logo{
+	width: 30%;
+	float: left;
+
+}
+.logo img {}
+.menu{}
+.main_menu{
+	float: right;
+}
+.main_menu ul{
+	list-style: none;
+}
+.main_menu ul li{
+	display: inline-block;
+}
+.main_menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 6px 40px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: 0.5s all linear;
+}
+.main_menu ul li:last-child a{
+	padding-right: 0;
+}
+.main_menu ul li a:hover{
+	background: #ddd;
+	color: #fff;
+}
+
+/*==== header end ====*/
+/*==== banner start ====*/
+.banner_area{
+	padding: 30px 0;
+}
+.banner{
+	padding: 30px 0;	
+}
+/*==== banner end ====*/
+/*==== content start ====*/
+.content_area{}
+.main_content{}
+.content{
+	color: #b4ad9e;
+	padding: 0 30px 0 40px;
+}
+.content p{
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+.content h2{
+	font-size: 30px;
+	font-weight: 400;
+	padding: 15px 0;
+	color: #626262;
+}
+.content .text{
+	text-transform: none;
+	line-height: 25px;
+	padding-bottom: 35px;
+	font-family: 'Playfair Display', serif;
+}
+
+/*==== content end ====*/
+/*==== service start ====*/
+.service_area{
+	padding: 80px 0px;
+}
+.main_service{
+	font-size: 14px;
+}
+.single_service{
+	width: 43%;
+	float: left;
+	padding: 0 32px 0px 40px;
+}
+.single_service img{
+	width: 100%;
+}
+.single_service p{
+	font-weight: 400;
+	padding: 15px 0;
+	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	padding-top: 25px;
+}
+.single_service .service_text{
+	text-transform: none;
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	line-height: 25px;
+}
+.single_service h2{
+	color: #626262;
+	font-size: 30px;	
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+.single_service:nth-child(even){
+	float: left;
+}
+/*==== service end ====*/
+/*==== form start ====*/
+.form_area{
+	background-color: #f0f0f0;
+	padding: 30px 0 80px 0;
+}
+.main_form{
+	position: relative;
+}
+.form{
+	text-align: center;
+}
+.form h2{
+	padding: 50px 0;
+	color: #333333;
+	font-size: 30px;	
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+}
+.form_email{
+	width:400px;
+	border: none;
+	background: transparent;
+	color: #626262;
+	font-size: 14px;	
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
+.send_icon{
+	position: absolute;
+	left: 66%;
+	top: 85%;
+}
+/*==== form end ====*/
+/*==== more option start ====*/
+.load_more_area{
+	padding-bottom: 100px;
+}
+.load_more{}
+.btn{
+	text-align: center;
+}
+.btn button{
+	font-size: 20px;	
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #626262;
+	padding: 15px 25px;
+	background-color: transparent;
+	border: none;
+	border: 1px solid #000;
+	transition: 0.5s all linear;
+}
+.btn button:hover{
+	background: #ddd;
+	color: #fff;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+/*==== more option end ====*/
+/*==== footer start ====*/
+footer{
+	background-color: #F0F0F0;
+	padding: 30px 0;
+}
+.main_footer{}
+.footer_left{
+	width: 50%;
+	float: left;
+	margin-top: 10px;
+	padding-left: 40px;
+}
+.footer_left p{
+	float: left;
+	font-size: 14px;	
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #000;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.footer_right{
+	float: right;
+	margin-top: 10px;
+	padding-right: 30px;
+}
+.footer_text{
+	float: left;
+}
+.footer_text p{
+	font-size: 14px;	
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	text-transform: capitalize;
+	color: #000;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.social_icon{}
+.social_icon img{
+	margin: 0 5px;
+	cursor: pointer;
+}
+.
+
+/*==== footer end ====*/
